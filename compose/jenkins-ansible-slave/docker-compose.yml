@@ -1,6 +1,6 @@
 # Replaces the default Jenkins slave
 jenkins-slave:
-  image: jembim/ps-jenkins-slave:0.1
+  image: jembim/ps-jenkins-slave:0.2
   environment:
     SLAVE_EXECUTORS: "10"
     SLAVE_NAME: "Swarm_Ansible_Slave"
